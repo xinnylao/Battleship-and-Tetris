@@ -31,7 +31,7 @@ public class TetrisQAgent extends QAgent {
     public TetrisQAgent(String name) {
         super(name);
         this.explorationRate = INITIAL_EXPLORATION_RATE;
-        this.random = new Random(3407);
+        this.random = new Random(12345);
     }
 
     @Override
